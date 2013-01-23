@@ -35,7 +35,7 @@ body:before, body:after {
 }
 body:after { clear:both; }
 body {
-  color:#CCCCCC;
+  color:#222222;
   font:100.01% / 1.375 Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {

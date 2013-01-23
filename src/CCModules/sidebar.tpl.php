@@ -1,6 +1,6 @@
 <div class='box'>
 <h4>All modules</h4>
-<p>All Lydia modules.</p>
+<p>All Anton modules.</p>
 <ul>
 <?php foreach($modules as $module): ?>
   <li><a href='<?=create_url("module/view/{$module['name']}")?>'><?=$module['name']?></a></li>
@@ -10,11 +10,11 @@
 
 
 <div class='box'>
-<h4>Lydia core</h4>
-<p>Lydia core modules.</p>
+<h4>Anton core</h4>
+<p>Anton core modules.</p>
 <ul>
 <?php foreach($modules as $module): ?>
-  <?php if($module['isLydiaCore']): ?>
+  <?php if($module['isAntonCore']): ?>
   <li><a href='<?=create_url("module/view/{$module['name']}")?>'><?=$module['name']?></a></li>
   <?php endif; ?>
 <?php endforeach; ?>
@@ -23,11 +23,11 @@
 
 
 <div class='box'>
-<h4>Lydia CMF</h4>
-<p>Lydia Content Management Framework (CMF) modules.</p>
+<h4>Anton CMF</h4>
+<p>Anton Content Management Framework (CMF) modules.</p>
 <ul>
 <?php foreach($modules as $module): ?>
-  <?php if($module['isLydiaCMF']): ?>
+  <?php if($module['isAntonCMF']): ?>
   <li><a href='<?=create_url("module/view/{$module['name']}")?>'><?=$module['name']?></a></li>
   <?php endif; ?>
 <?php endforeach; ?>
@@ -89,10 +89,10 @@
 
 <div class='box'>
 <h4>More modules</h4>
-<p>Modules that does not implement any specific Lydia interface.</p>
+<p>Modules that does not implement any specific Anton interface.</p>
 <ul>
 <?php foreach($modules as $module): ?>
-  <?php if(!($module['isController'] || $module['isLydiaCore'] || $module['isLydiaCMF'])): ?>
+  <?php if(!($module['isController'] || $module['isAntonCore'] || $module['isAntonCMF'])): ?>
   <li><a href='<?=create_url("module/view/{$module['name']}")?>'><?=$module['name']?></a></li>
   <?php endif; ?>
 <?php endforeach; ?>
