@@ -132,6 +132,7 @@ $jst->config['menus'] = array(
     'blog'      => array('label'=>'My Blog', 'url'=>'my/blog'),
     'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
 	'modules'   => array('label'=>'Modules', 'url'=>'module'),
+	'content'   => array('label'=>'Content', 'url'=>'content'),
   ),
 );
 
@@ -179,6 +180,6 @@ $jst->config['theme'] = array(
     'logo' => 'logo_80x80.png',
     'logo_width'  => 80,
     'logo_height' => 80,
-    'footer' => '<p>Anton &copy; by J&ouml;rgen Stegeby (jorgen@stegeby.se)</p>',
+    'footer' => '<p>Anton &copy; by J&ouml;rgen Stegeby (jorgen@stegeby.se) baserat p&aring; Lydia by Mikael Roos BTH (mos@dbwebb.se)</p>',
   ),
 );
