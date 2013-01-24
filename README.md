@@ -25,7 +25,7 @@ chmod 777 site/data[enter]
 - Icons/images and the size of the icons/images
 - Footer information
 
-Note: /site/ is the location when site-specific information resides. Information, data, modules and so on will override 
+Note: /site/ is the location when site-specific information resides. Information, data, modules, themes and so on will override 
 Anton's basic settings. That way the original structure and files of Anton can be untouched and still give the flexibility 
 to modify the framework.
 
